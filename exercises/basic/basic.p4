@@ -54,7 +54,7 @@ parser MyParser(packet_in packet,
     state start {
         transition parse_ethernet;
     }
-    state parse_ethernet{
+    state parse_ethernet {
         packet.extract(hdr.ethernet);
         transition select(hdr.ethernet.etherType) {
             // if ethernet.etherType == 0x0800 -> parse_ipv4 state
@@ -63,7 +63,7 @@ parser MyParser(packet_in packet,
             default: accept;
         }
     }
-    state parse_ipv4{
+    state parse_ipv4 {
         packet.extract(hdr.ipv4);
         transition accept;
     }
@@ -96,7 +96,7 @@ control MyIngress(inout headers hdr,
         // Updates the ethernet destination address with the address of the next hop
         hdr.ethernet.srcAddr = hdr.ethernet.dstAddr;
         // Updates the ethernet source address with the address of the switch
-        hdr.ethernet.srcAddr = dstAddr
+        hdr.ethernet.dstAddr = dstAddr;
         // Decrements the TTL
         hdr.ipv4.ttl = hdr.ipv4.ttl - 1;
     }
