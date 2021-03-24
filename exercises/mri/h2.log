@@ -1,0 +1,976 @@
+sniffing on eth0
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 19
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 57
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 60
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 26
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 37
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 48
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 3
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 3
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
+got a packet
+###[ Ethernet ]###
+  dst       = 08:00:00:00:02:02
+  src       = 08:00:00:00:02:00
+  type      = 0x800
+###[ IP ]###
+     version   = 4L
+     ihl       = 10L
+     tos       = 0x0
+     len       = 51
+     id        = 1
+     flags     = 
+     frag      = 0L
+     ttl       = 62
+     proto     = udp
+     chksum    = 0x60b7
+     src       = 10.0.1.1
+     dst       = 10.0.2.2
+     \options   \
+      |###[ MRI ]###
+      |  copy_flag = 0L
+      |  optclass  = control
+      |  option    = 31L
+      |  length    = 20
+      |  count     = 2
+      |  \swtraces  \
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 2
+      |   |  qdepth    = 0
+      |   |###[ SwitchTrace ]###
+      |   |  swid      = 1
+      |   |  qdepth    = 0
+###[ UDP ]###
+        sport     = 1234
+        dport     = 4321
+        len       = 11
+        chksum    = 0x3cd0
+###[ Raw ]###
+           load      = 'MRI'
